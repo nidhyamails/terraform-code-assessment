@@ -9,7 +9,7 @@ variable "default_tags" {
 variable "region" {
   type        = string
   description = "The region to deploy resources to"
-  default     = "ap-south-1"
+  default     = "us-east-1"
 }
 # VPC Variables
 variable "vpc_cidr" {
@@ -26,7 +26,7 @@ variable "private_cidr" {
 variable "ec2_key_pair" {
   type        = string
   description = "EC2 key pair"
-  default     = "iasmumbai"
+  default     = "myjenkinsEC2key"
 }
 variable "database_private_ip" {
   type        = string
